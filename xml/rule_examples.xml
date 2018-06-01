@@ -1,0 +1,116 @@
+<rule>
+	<if>
+		<element paragraph="/us/usc/t18/s1030/a">
+		Whoever
+		</element>
+		<or>
+			<and>
+				<element paragraph="/us/usc/t18/s1030/a/2">
+					intentionally
+				</element>
+					<or>
+						<element paragraph="/us/usc/t18/s1030/a/2">
+							accesses a computer without authorization
+						</element>
+						<element paragraph="/us/usc/t18/s1030/a/2">
+							or exceeds authorized access
+						</element>
+					</or>
+				<element paragraph="/us/usc/t18/s1030/a/2">
+					and thereby obtains
+				</element>
+				<element paragraph="/us/usc/t18/s1030/a/2/C">
+					information from any protected computer;
+				</element>
+			</and>
+			<and>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					knowingly
+				</element>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					causes the transmission of
+				</element>
+				<or>
+					<element paragraph="/us/usc/t18/s1030/a/5/A">
+						a program,
+					</element> 
+					<element paragraph="/us/usc/t18/s1030/a/5/A">
+						information,
+					</element> 
+					<element paragraph="/us/usc/t18/s1030/a/5/A">
+						code, 
+					</element>
+					<element paragraph="/us/usc/t18/s1030/a/5/A">
+						or command
+					</element>
+				</or>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					and as a result of such conduct
+				</element>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					intentionally
+				</element>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					causes damage...to a protected computer;
+				</element>
+				<element paragraph="/us/usc/t18/s1030/a/5/A">
+					without authorization,
+				</element> 
+			</and>
+		</or>
+		<element paragraph="/us/usc/t18/s1030/e/2">
+			the term “protected computer” means a computer—
+		</element>
+		<element paragraph="/us/usc/t18/s1030/e/2/B">
+			which is used in or affecting interstate or foreign commerce or communication, including a computer located outside the United States that is used in a manner that affects interstate or foreign commerce or communication of the United States;
+		</element>
+	</if>
+	<then>
+		<remedy paragraph="/us/usc/t18/s1030/a">
+			shall be punished as provided in subsection (c) of this section.
+		<remedy>
+	</then>
+</rule>
+
+<rule>
+	<then>
+	It shall be unlawful for
+	</then>
+	<if>
+		<element paragraph="/us/usc/t18/s1962/c">
+			any person
+		</element>
+		<or>
+			<element paragraph="/us/usc/t18/s1962/c">
+				employed by or
+			</element>
+			<element paragraph="/us/usc/t18/s1962/c">
+				associated with
+			</element>
+		</or>
+		<or>
+			<element paragraph="/us/usc/t18/s1962/c">
+				any enterprise engaged in...interstate or foreign commerce
+			</element>
+			<element paragraph="/us/usc/t18/s1962/c">
+				any enterprise...the activities of which affect, interstate or foreign commerce
+			</element>
+		</or>
+		<or>
+			<element paragraph="/us/usc/t18/s1962/c">
+			to conduct...such enterprise’s affairs
+			</element>
+			<element paragraph="/us/usc/t18/s1962/c">
+			or participate, directly or indirectly, in the conduct of such enterprise’s affairs
+			</element>
+		</or>
+		<or>
+			<element paragraph="/us/usc/t18/s1962/c">
+			through a pattern of racketeering activity or
+			</element>
+			<element paragraph="/us/usc/t18/s1962/c">
+			through a pattern of...collection of unlawful debt.
+			</element>
+		</or>
+	</if>
+</rule>
