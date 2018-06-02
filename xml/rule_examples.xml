@@ -1,116 +1,250 @@
-<rule>
+<xml>
+<rule count="Count I">
 	<if>
-		<element paragraph="/us/usc/t18/s1030/a">
+		<element identifier="/us/usc/t18/s1030/a">
 		Whoever
 		</element>
 		<or>
 			<and>
-				<element paragraph="/us/usc/t18/s1030/a/2">
+				<element identifier="/us/usc/t18/s1030/a/2">
 					intentionally
 				</element>
 					<or>
-						<element paragraph="/us/usc/t18/s1030/a/2">
+						<element identifier="/us/usc/t18/s1030/a/2">
 							accesses a computer without authorization
 						</element>
-						<element paragraph="/us/usc/t18/s1030/a/2">
+						<element identifier="/us/usc/t18/s1030/a/2">
 							or exceeds authorized access
 						</element>
 					</or>
-				<element paragraph="/us/usc/t18/s1030/a/2">
+				<element identifier="/us/usc/t18/s1030/a/2">
 					and thereby obtains
 				</element>
-				<element paragraph="/us/usc/t18/s1030/a/2/C">
+				<element identifier="/us/usc/t18/s1030/a/2/C">
 					information from any protected computer;
 				</element>
 			</and>
 			<and>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					knowingly
 				</element>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					causes the transmission of
 				</element>
 				<or>
-					<element paragraph="/us/usc/t18/s1030/a/5/A">
+					<element identifier="/us/usc/t18/s1030/a/5/A">
 						a program,
 					</element> 
-					<element paragraph="/us/usc/t18/s1030/a/5/A">
+					<element identifier="/us/usc/t18/s1030/a/5/A">
 						information,
 					</element> 
-					<element paragraph="/us/usc/t18/s1030/a/5/A">
+					<element identifier="/us/usc/t18/s1030/a/5/A">
 						code, 
 					</element>
-					<element paragraph="/us/usc/t18/s1030/a/5/A">
+					<element identifier="/us/usc/t18/s1030/a/5/A">
 						or command
 					</element>
 				</or>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					and as a result of such conduct
 				</element>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					intentionally
 				</element>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					causes damage...to a protected computer;
 				</element>
-				<element paragraph="/us/usc/t18/s1030/a/5/A">
+				<element identifier="/us/usc/t18/s1030/a/5/A">
 					without authorization,
 				</element> 
 			</and>
 		</or>
-		<element paragraph="/us/usc/t18/s1030/e/2">
+		<element identifier="/us/usc/t18/s1030/e/2">
 			the term “protected computer” means a computer—
 		</element>
-		<element paragraph="/us/usc/t18/s1030/e/2/B">
+		<element identifier="/us/usc/t18/s1030/e/2/B">
 			which is used in or affecting interstate or foreign commerce or communication, including a computer located outside the United States that is used in a manner that affects interstate or foreign commerce or communication of the United States;
 		</element>
 	</if>
 	<then>
-		<remedy paragraph="/us/usc/t18/s1030/a">
+		<remedy identifier="/us/usc/t18/s1030/a">
 			shall be punished as provided in subsection (c) of this section.
-		<remedy>
+		</remedy>
 	</then>
 </rule>
-
-<rule>
+<rule count="Count II">
 	<then>
 	It shall be unlawful for
 	</then>
 	<if>
-		<element paragraph="/us/usc/t18/s1962/c">
+		<element identifier="/us/usc/t18/s1962/c">
 			any person
 		</element>
 		<or>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 				employed by or
 			</element>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 				associated with
 			</element>
 		</or>
 		<or>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 				any enterprise engaged in...interstate or foreign commerce
 			</element>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 				any enterprise...the activities of which affect, interstate or foreign commerce
 			</element>
 		</or>
 		<or>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 			to conduct...such enterprise’s affairs
 			</element>
-			<element paragraph="/us/usc/t18/s1962/c">
+			<element identifier="/us/usc/t18/s1962/c">
 			or participate, directly or indirectly, in the conduct of such enterprise’s affairs
 			</element>
 		</or>
 		<or>
-			<element paragraph="/us/usc/t18/s1962/c">
-			through a pattern of racketeering activity or
+			<element identifier="/us/usc/t18/s1962/c">
+			through a pattern of
 			</element>
-			<element paragraph="/us/usc/t18/s1962/c">
-			through a pattern of...collection of unlawful debt.
-			</element>
+			<or>
+				<element identifier="/us/usc/t18/s1962/c">
+				racketeering activity or
+				</element>
+				<and>
+					<element identifier="/us/usc/t18/s1831/a">
+					Whoever, intending or knowing that the offense will benefit any foreign government, foreign instrumentality, or foreign agent,
+					</element>
+					<element identifier="/us/usc/t18/s1831/a">
+					knowingly
+					</element>
+					<or>
+						<element identifier="/us/usc/t18/s1831/a/1">
+						steals, or 
+						</element>
+						<and>
+							<element identifier="/us/usc/t18/s1831/a/1">
+							without authorization
+							</element>
+							<or> 
+								<element identifier="/us/usc/t18/s1831/a/1">
+								appropriates, takes, carries away, or conceals, or
+								</element>
+								<element identifier="/us/usc/t18/s1831/a/1">
+								by fraud, artifice, or deception obtains
+								</element>
+							</or>
+							<element identifier="/us/usc/t18/s1831/a/1">
+							a trade secret;
+							</element>
+						</and>
+					</or>
+				</and>
+				<and>
+					<element identifier="/us/usc/t18/s1831/a/2">
+					without authorization
+					</element>
+					<element identifier="/us/usc/t18/s1831/a/2">
+					copies, duplicates, sketches, draws, photographs, downloads, uploads, alters, destroys, photocopies, replicates, transmits, delivers, sends, mails, communicates, or conveys
+					</element>
+					<element identifier="/us/usc/t18/s1831/a/2">
+					a trade secret;
+					</element>
+				</and>
+				<and>
+					<element identifier="/us/usc/t18/s1831/a/3">
+					receives, buys, or possesses
+					</element>
+					<element identifier="/us/usc/t18/s1831/a/3">
+					a trade secret,
+					</element>
+					<element identifier="/us/usc/t18/s1831/a/3">
+					knowing the same to have been stolen or appropriated, obtained, or converted without authorization;
+					</element>
+				</and>
+				<element identifier="/us/usc/t18/s1831/a/4">
+				attempts to commit any offense described in any of paragraphs (1) through (3); or
+				</element>
+				<and>
+					<element identifier="/us/usc/t18/s1831/a/5">
+					conspires with one or more other persons to commit any offense described in any of paragraphs (1) through (3), and
+					</element>
+					<element identifier="/us/usc/t18/s1831/a/5">
+					one or more of such persons do any act to effect the object of the conspiracy,
+					</element>
+				</and>
+				<and>
+					<element identifier="/us/usc/t18/s1832/a">
+					Whoever, with intent to convert
+					</element>
+					<element identifier="/us/usc/t18/s1832/a">
+					a trade secret,
+					</element>
+					<element identifier="/us/usc/t18/s1832/a">
+					that is related to a product or service used in or intended for use in interstate or foreign commerce,
+					</element>
+					<element identifier="/us/usc/t18/s1832/a">
+					to the economic benefit of anyone other than the owner thereof,
+					</element>
+					<element identifier="/us/usc/t18/s1832/a">
+					and intending or knowing that the offense will, injure any owner of that trade secret,
+					</element>
+					<element identifier="/us/usc/t18/s1832/a">
+					knowingly—
+					</element>
+					<or>
+						<element identifier="/us/usc/t18/s1832/a/1">
+						steals...such information
+						</element>
+						<element identifier="/us/usc/t18/s1832/a/1">
+						without authorization appropriates, takes, carries away, or conceals...such information
+						</element>
+						<element identifier="/us/usc/t18/s1832/a/1">
+						or, by fraud, artifice, or deception obtains such information;
+						</element>
+						<element identifier="/us/usc/t18/s1832/a/2">
+						without authorization copies, duplicates, sketches, draws, photographs, downloads, uploads, alters, destroys, photocopies, replicates, transmits, delivers, sends, mails, communicates, or conveys such information;
+						</element>
+						<and>
+							<element identifier="/us/usc/t18/s1832/a/3">
+							receives, buys, or possesses such information,
+							</element>
+							<element identifier="/us/usc/t18/s1832/a/3">
+							knowing the same to have been stolen or appropriated, obtained, or converted without authorization;
+							</element>
+						</and>
+						<element identifier="/us/usc/t18/s1832/a/4">
+						attempts to commit any offense described in paragraphs (1) through (3); 
+						</element>
+						<and>
+							<element identifier="/us/usc/t18/s1832/a/5">
+							conspires with one or more other persons to commit any offense described in paragraphs (1) through (3)
+							</element>
+							<element identifier="/us/usc/t18/s1832/a/5">
+							, and one or more of such persons do any act to effect the object of the conspiracy,
+							</element>
+						</and>
+					</or>
+				</and>
+			</or>
 		</or>
 	</if>
 </rule>
+<rule count="Count III">
+	<then>
+	It shall be unlawful for
+	</then>
+	<if>
+	<element identifier="/us/usc/t18/s1962/d">
+	any person
+	</element>
+	<element identifier="/us/usc/t18/s1962/d">
+	to conspire
+	</element>
+	<element identifier="/us/usc/t18/s1962/d">
+	to violate any of the provisions of subsection...(c) of this section.
+	</element>
+	</if>
+</rule>
+</xml>
